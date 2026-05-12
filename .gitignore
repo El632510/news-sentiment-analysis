@@ -218,3 +218,7 @@ __marimo__/
 .streamlit/secrets.toml
 data/raw/
 data/stock_prices/
+
+# Ignore large data files
+data/raw/*.csv
+data/news_with_sentiment.csv
